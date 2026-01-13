@@ -31,7 +31,7 @@ const Header = () => {
         </Link>
       </Div1>
 
-      {/* Desktop Navigation */}
+      {/* Navigation Desktop */}
       <Div2>
         <li>
           <Link href="#projects">
@@ -55,7 +55,6 @@ const Header = () => {
         <SocialIcons href={GithubUrl} target="_blank">
           <AiFillGithub size="2rem" />
         </SocialIcons>
-
         <SocialIcons href={FacebookUrl} target="_blank">
           <AiFillFacebook size="2rem" />
         </SocialIcons>
