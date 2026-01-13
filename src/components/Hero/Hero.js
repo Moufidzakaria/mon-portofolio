@@ -15,12 +15,14 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Hello! <br />
-          I'm Tanveer Khan
+          I'm Zakaria <br />
+          Backend & Web Scraping Engineer
         </SectionTitle>
         <SectionText>
-          A Full Stack Backend & Solana Blockchain Developer specializing in
-          scalable server-side applications with Node.js & Rust. Proficient in
-          Next.js and React.js for seamless web development.
+          I build high-performance APIs & Web Scraping systems using Node.js,
+          MongoDB, and Docker. Experienced in scalable backend architecture,
+          task automation, CI/CD with GitHub Actions, and production-ready
+          Docker Compose setups.
         </SectionText>
         <div
           style={{
@@ -30,15 +32,7 @@ const Hero = (props) => (
             margin: "0 0 80px",
           }}
         >
-          <LinkButton alt="upwork" href={UpworkUrl} target="_blank">
-            Upwork
-          </LinkButton>
-          <LinkButton alt="fiverr" href={FiverUrl} target="_blank">
-            Fiverr
-          </LinkButton>
-          <LinkButton alt="resume" href={ResumeUrl} target="_blank">
-            Resume
-          </LinkButton>
+       
         </div>
       </LeftSection>
     </Section>

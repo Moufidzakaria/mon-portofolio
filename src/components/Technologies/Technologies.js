@@ -17,60 +17,36 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tech Stack & Tools</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Blockchain
+      I work with a wide range of technologies for building high-performance
+      Web Scraping APIs, scalable backend systems, and automated pipelines.
+      From frontend to backend, containerization, and CI/CD.
     </SectionText>
     <List>
-      <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with Next.js
-            <br />
-            React.js, Bootstrap, MaterialUi
-            <br />
-            Ant Design, HTML5, CSS3 <br />& JavaScript
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+     
       <ListItem>
         <picture>
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-End & APIs</ListTitle>
           <ListParagraph>
-            Experience with Node.js
+            Node.js, Express.js, GraphQL, Nest.js
             <br />
-            Express.js, GraphQL, Nest.js
+            TypeScript, Microservices, Web Scraping
             <br />
-            TypeScript, Microservices
+            MongoDB, MySQL, PostgreSQL
             <br />
-            Docker, PubSub, RabbitMQ
+            Docker, Docker Compose, RabbitMQ, PubSub
             <br />
-            Prisma, Sequelize, MongoDB
-            <br />
-            MYSQL & Postgres
+            CI/CD with GitHub Actions
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Blockchain</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Solana Blockchain <br />
-            using Rust
-          </ListParagraph>
-        </ListContainer>
+        
+        
       </ListItem>
     </List>
     <SectionDivider colorAlt />
